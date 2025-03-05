@@ -21,30 +21,36 @@
 
                 .gifs {
                     margin-top: 5%;
+
                     .gif20 {
                         width: 100vw;
                     }
 
-                    .gif1 {
-                        width: 25vw;
-                    }
+                    .banners {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
 
-                    .gif2 {
-                        width: 25vw;
+                        .textoRegalo {
+                            margin-right: 2%;
+                            margin-left: 2%;
+                            font-family: "Sigmar", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 15px;
+                        }
+
+                        .gif1 {
+                            width: 30vw;
+                            height: 40vh
+                        }
+
+                        .gif2 {
+                            width: 30vw;
+                            height: 40vh;
+                        }
                     }
                 }
-
-
-                .txtRegalo {
-                    margin-top: 10%;
-
-                    .textoRegalo {
-                        font-family: "Sigmar", sans-serif;
-                        font-weight: 400;
-                        font-style: normal;
-                    }
-                }
-
                 .a {
                     margin-top: 10%;
                     text-align: center;
