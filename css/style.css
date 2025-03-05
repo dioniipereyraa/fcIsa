@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: rgb(255, 99, 125);
+    width: 100vw;
+    height: 100vh;
+  }
+  body main .contentMain .txtMain {
+    margin-top: 5%;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  body main .contentMain .gifs {
+    margin-top: 5%;
+  }
+  body main .contentMain .gifs .gif20 {
+    width: 100vw;
+  }
+  body main .contentMain .gifs .gif1 {
+    width: 25vw;
+  }
+  body main .contentMain .gifs .gif2 {
+    width: 25vw;
+  }
+  body main .contentMain .txtRegalo {
+    margin-top: 10%;
+  }
+  body main .contentMain .txtRegalo .textoRegalo {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body main .contentMain .a {
+    margin-top: 10%;
+    text-align: center;
+  }
+  body main .contentMain .a a {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 5vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
