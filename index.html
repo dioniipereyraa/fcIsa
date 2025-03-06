@@ -47,6 +47,10 @@
                     <img src="./img/5.jpeg" alt="" class="imgIsa">
                     <p class="pIsa">y aca saliste TAN TAN TAN linda, que la tuve que incluir aca :p</p>
                 </div>
+                <div class="imgContainer">
+                    <img src="./img/7.jpeg" alt="" class="imgIsa">
+                    <p class="pIsa">Una de las cosas que mas te gusta hacer parece, y bueno aca da la casualidad de que estoy en la foto <br>(hay mucho mas de donde salio eso)</p>
+                </div>
             </div>
         </div>
     </main>
@@ -62,5 +66,31 @@
             <img class="imgFooter" src="./img/6.jpeg" alt="">
         </div>
     </footer>
+    <script>
+        document.querySelectorAll('.imgIsa').forEach(img => {
+            img.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // First, close any currently expanded image
+                document.querySelectorAll('.imgIsa.expanded').forEach(expandedImg => {
+                    if (expandedImg !== this) { // Don't close the clicked image if it's already expanded
+                        expandedImg.classList.remove('expanded');
+                    }
+                });
+                
+                // Then toggle the clicked image
+                this.classList.toggle('expanded');
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.classList.contains('imgIsa')) {
+                document.querySelectorAll('.imgIsa.expanded').forEach(img => {
+                    img.classList.remove('expanded');
+                });
+            }
+        });
+    </script>
 </body>
 </html>

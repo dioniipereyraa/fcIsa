@@ -95,6 +95,21 @@
                         display: block;
                         margin-left: auto;
                         margin-right: auto;
+                        transform-origin: center center;
+                        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                        cursor: pointer;
+
+                        &.expanded {
+                            position: fixed;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%) scale(3.6);
+                            z-index: 1000;
+                            object-fit: contain;
+                            background-color: rgba(0, 0, 0, 0.9);
+                            padding: 10px;
+                            border-radius: 10px;
+                        }
                     }
                     .pIsa{
                         font-family: "Kanit", sans-serif;
@@ -237,6 +252,21 @@
                         display: block;
                         margin-left: auto;
                         margin-right: auto;
+                        transform-origin: center center;
+                        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                        cursor: pointer;
+
+                        &.expanded {
+                            position: fixed;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%) scale(2.25);
+                            z-index: 1000;
+                            object-fit: contain;
+                            background-color: rgba(0, 0, 0, 0.9);
+                            padding: 10px;
+                            border-radius: 10px;
+                        }
                     }
 
                     .pIsa {
@@ -407,6 +437,21 @@
                         object-fit: cover;
                         border-radius: 5px;
                         margin-bottom: 10px;
+                        transform-origin: center center;
+                        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                        cursor: pointer;
+
+                        &.expanded {
+                            position: fixed;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%) scale(4);
+                            z-index: 1000;
+                            object-fit: contain;
+                            background-color: rgba(0, 0, 0, 0.9);
+                            padding: 20px;
+                            border-radius: 10px;
+                        }
                     }
 
                     .pIsa {
