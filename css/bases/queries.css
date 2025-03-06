@@ -20,10 +20,13 @@
     text-align: center;
   }
   body main .contentMain .txtSec {
+    font-family: "sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 0.7rem;
     margin-top: 10%;
   }
   body main .contentMain .gifs {
