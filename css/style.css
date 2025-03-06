@@ -326,7 +326,12 @@
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    background-color: rgba(78, 70, 105, 0.459);
+    background-color: rgba(217, 206, 255, 0.459);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto;
   }
   body main .contentMain .imagenes .h3Isa {
     font-family: "Kanit", sans-serif;
@@ -336,13 +341,11 @@
     font-size: 2rem;
   }
   body main .contentMain .imagenes .imgIsa {
-    height: auto;
-    width: 15vw;
-    max-width: 400px;
-    margin-top: 3%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
   body main .contentMain .imagenes .pIsa {
     font-family: "Kanit", sans-serif;
@@ -350,6 +353,8 @@
     font-style: normal;
     margin-bottom: 2%;
     font-size: 1.8rem;
+    color: white;
+    text-align: center;
   }
   footer {
     margin-top: 5%;
