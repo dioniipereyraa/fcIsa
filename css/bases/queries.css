@@ -9,6 +9,10 @@
     width: 100vw;
     height: 100vh;
   }
+  body main {
+    width: 100vw;
+    height: 100vh;
+  }
   body main .contentMain .txtMain {
     margin-top: 5%;
     font-family: "Sigmar", sans-serif;
@@ -40,7 +44,7 @@
     height: 40vh;
   }
   body main .contentMain .gifs .banners .gif2 {
-    width: 30vw;
+    width: 29vw;
     height: 40vh;
   }
   body main .contentMain .a {
@@ -53,6 +57,30 @@
     font-style: normal;
     text-decoration: none;
     font-size: 5vw;
+  }
+  body main .contentMain .imagenes {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  body main .contentMain .imagenes .h3Isa {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2%;
+  }
+  body main .contentMain .imagenes .imgIsa {
+    height: auto;
+    width: 25vw;
+    margin-top: 5%;
+  }
+  body main .contentMain .imagenes .pIsa {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2%;
   }
 }
 

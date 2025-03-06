@@ -10,6 +10,8 @@
         height: 100vh;
 
         main {
+            width: 100vw;
+            height: 100vh;
             .contentMain {
                 .txtMain {
                     margin-top: 5%;
@@ -46,7 +48,7 @@
                         }
 
                         .gif2 {
-                            width: 30vw;
+                            width: 29vw;
                             height: 40vh;
                         }
                     }
@@ -61,6 +63,31 @@
                         font-style: normal;
                         text-decoration: none;
                         font-size: 5vw;
+                    }
+                }
+
+                .imagenes{
+                    margin-top: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    .h3Isa{
+                        font-family: "Kanit", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin-bottom: 2%;
+                    }
+                    .imgIsa{
+                        height: auto;
+                        width: 25vw;
+                        margin-top: 5%;
+                    }
+                    .pIsa{
+                        font-family: "Kanit", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin-bottom: 2%;
                     }
                 }
             }
