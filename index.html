@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="a">
-                    <a href="">Hace click en mi pequeño regalo</a>
+                    <a href="./img/gc.jpeg">Hace click en mi pequeño regalo</a>
                     <p>pequeño como vos jijiji</p>
             </div>
             <div class="imagenes">
@@ -63,27 +63,29 @@
             <h4>Espero que te haga sentir amada</h4>
             <h4>Espero que te haga sentir un nigga</h4>
             <p>adjunto una ultima lil foto aca</p>
-            <img class="imgFooter" src="./img/6.jpeg" alt="">
+            <div class="imagenes">
+                <div class="imgContainer">
+                    <img class="imgIsa" src="./img/6.jpeg" alt="">
+                </div>
+            </div>
         </div>
     </footer>
     <script>
+        // Handle all images with imgIsa class
         document.querySelectorAll('.imgIsa').forEach(img => {
-            img.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                
-                // First, close any currently expanded image
+            img.addEventListener('click', function() {
+                // Close any other expanded images
                 document.querySelectorAll('.imgIsa.expanded').forEach(expandedImg => {
-                    if (expandedImg !== this) { // Don't close the clicked image if it's already expanded
+                    if (expandedImg !== this) {
                         expandedImg.classList.remove('expanded');
                     }
                 });
-                
-                // Then toggle the clicked image
+                // Toggle this image
                 this.classList.toggle('expanded');
             });
         });
 
+        // Close expanded images when clicking outside
         document.addEventListener('click', function(e) {
             if (!e.target.classList.contains('imgIsa')) {
                 document.querySelectorAll('.imgIsa.expanded').forEach(img => {
