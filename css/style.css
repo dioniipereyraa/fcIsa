@@ -19,6 +19,14 @@
     font-style: normal;
     text-align: center;
   }
+  body main .contentMain .txtSec {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+  }
   body main .contentMain .gifs {
     margin-top: 5%;
   }
@@ -129,6 +137,14 @@
     font-style: normal;
     text-align: center;
     font-size: 3.5rem;
+  }
+  body main .contentMain .txtSec {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5%;
   }
   body main .contentMain .gifs {
     margin-top: 3%;
@@ -261,6 +277,7 @@
     font-style: normal;
     text-align: center;
     font-size: 1.5rem;
+    margin-top: 5%;
   }
   body main .contentMain .gifs {
     margin-top: 3%;
