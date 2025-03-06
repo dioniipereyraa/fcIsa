@@ -20,7 +20,6 @@
     text-align: center;
   }
   body main .contentMain .txtSec {
-    font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -39,12 +38,13 @@
     align-items: center;
   }
   body main .contentMain .gifs .banners .textoRegalo {
+    margin-top: 10%;
     margin-right: 2%;
     margin-left: 2%;
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 12px;
   }
   body main .contentMain .gifs .banners .gif1 {
     width: 30vw;
@@ -166,8 +166,9 @@
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     flex: 1;
+    margin-top: 10%;
   }
   body main .contentMain .gifs .banners .gif1 {
     width: 25vw;

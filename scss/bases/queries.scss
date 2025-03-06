@@ -20,7 +20,7 @@
                     text-align: center;
                 }
                 .txtSec{
-                    font-family: "Kanit", sans-serif;
+                        
                     font-weight: 400;
                     font-style: normal;
                     text-align: center;
@@ -41,12 +41,13 @@
                         align-items: center;
 
                         .textoRegalo {
+                            margin-top: 10%;
                             margin-right: 2%;
                             margin-left: 2%;
                             font-family: "Sigmar", sans-serif;
                             font-weight: 400;
                             font-style: normal;
-                            font-size: 15px;
+                            font-size: 12px;
                         }
 
                         .gif1 {
@@ -182,8 +183,9 @@
                             font-family: "Sigmar", sans-serif;
                             font-weight: 400;
                             font-style: normal;
-                            font-size: 1.8rem;
+                            font-size: 1.2rem;
                             flex: 1;
+                            margin-top: 10%;
                         }
 
                         .gif1 {
